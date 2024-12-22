@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+
+# Swift Package Manager
+/.swiftpm
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+/Packages
+Package.resolved
+version.lock
+
+# Xcode
+/*.xcodeproj
+xcuserdata/
+*.xcuserstate
+*.xcframework
+DerivedData/
+
+# Build artifacts
+/.build
+/build/
+build/
+.temp
+/temp
+
+# Archives
+*.zip
+*.tar
+
+# Binary Targets
+BinaryTarget/
+binpack*
+
+# Authentication
+.netrc
+
+# Miscellaneous
+tag.txt
